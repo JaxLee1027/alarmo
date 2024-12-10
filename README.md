@@ -88,6 +88,8 @@
             <h2>Demonstration Video</h2>
             <iframe src="https://drive.google.com/file/d/1WSwifaCDaiMutOcksjoA3FaBC6sSkugz/preview" allow="autoplay" width="640" height="360"></iframe>
         </div>
+        If the video doesn't play, use this link:
+        <a href="https://drive.google.com/file/d/1WSwifaCDaiMutOcksjoA3FaBC6sSkugz/view?usp=sharing">Demo</a>
     </div>
     <div class="content">
         <h2>More Information</h2>
