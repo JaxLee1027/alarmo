@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>System Diagram</title>
+    <title>SRS</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,23 +51,10 @@
         .section ul li {
             margin-bottom: 10px;
         }
-        .image-container {
-            display: flex; /* 使用 Flexbox 布局让图片并排显示 */
-            justify-content: center; /* 居中对齐图片 */
-            gap: 10px; /* 图片之间的间距 */
-        }
-        .image-container img {
-            width: 500px; /* 设置图片宽度一致 */
-            height: auto; /* 高度根据宽度自动调整比例 */
-            object-fit: cover; /* 确保图片填充且不变形 */
-            border: 1px solid #ddd; /* 可选：为图片添加边框 */
-            border-radius: 5px; /* 可选：为图片设置圆角 */
-        }
         footer {
             background: linear-gradient(to right, #6a11cb, #c219f0); /* 渐变从蓝紫色到紫色 */
             color: white; /* 设置文字为白色 */
             padding: 10px 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
@@ -94,9 +81,7 @@
                         <li>The system shall allow users to switch between system time setting and alarm time setting modes.</li>
                     </ul>
                 </li>
-        <div class="image-container">
-            <img src="button1.png" alt="lcd1">
-        </div>
+            <img src="button1.png" alt="lcd1" style="width: 600px; height: auto;">
             </ul>
         </div>
         <div class="section">
@@ -109,7 +94,7 @@
                     <ul>
                         <li>The motor begins moving away from the user as the alarm time approaches.</li>
                     </ul>
-                    <img src="motorcode.png" alt="lcd2">
+                    <img src="motorcode.png" alt="motorcode" style="width: 600px; height: auto;">
             </ul>
         </div>
                 <div class="section">
@@ -122,7 +107,7 @@
                     <ul>
                         <li>The system adjusts its movement path to avoid collisions.</li>
                     </ul>
-                    <img src="distance.png" alt="lcd2">
+                    <img src="distance.png" alt="distance" style="width: 600px; height: auto;">
             </ul>
         </div>
                 <div class="section">
@@ -132,7 +117,7 @@
                     <ul>
                         <li>The system is equipped with buttons for setting time, switching modes, and resetting the system.</li>
                     </ul>
-                    <img src="button2.png" alt="lcd2">
+                    <img src="button2.png" alt="button2" style="width: 600px; height: auto;">
             </ul>
         </div>
                 <div class="section">
@@ -153,7 +138,7 @@
                     <ul>
                         <li>The RTC module ensures precise timekeeping and accurate alarm scheduling.</li>
                     </ul>
-                <img src="RTC_proof.png" alt="System Diagram">
+                <img src="RTC_proof.png" alt="RTC_proof" style="width: 400px; height: auto;">
             </ul>
         </div>
         <a href="index.html">Back to home page</a>
